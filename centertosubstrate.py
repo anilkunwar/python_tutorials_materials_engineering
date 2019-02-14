@@ -1,4 +1,4 @@
-# Geometrical parameters in microelectronic packaging industries
+# Geometrical parameters in size determination of empirical solder-substrate pairs in microelectronic packaging industries
 #https://www.geeksforgeeks.org/python-math-function-sqrt/
 #https://www.geeksforgeeks.org/mathematical-functions-in-python-set-3-trigonometric-and-angular-functions/
 import math
