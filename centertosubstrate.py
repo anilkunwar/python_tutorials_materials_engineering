@@ -1,4 +1,4 @@
-
+# Geometrical parameters in microelectronic packaging industries
 #https://www.geeksforgeeks.org/python-math-function-sqrt/
 #https://www.geeksforgeeks.org/mathematical-functions-in-python-set-3-trigonometric-and-angular-functions/
 import math
@@ -14,7 +14,7 @@ diameter=sn_size
 radius = (diameter/2.0)
 mask_size=input("Enter the length of the substrate mask in  micrometers:   ")
 chord=mask_size
-print("distance from center to substate is:")
+print("distance from center to substrate (um) is:")
 print calculate_chorddist(radius,chord)
-print("height of the boundary mask is:")
+print("height of the boundary mask (um) is:")
 print calculate_maskheight(radius,chord)
