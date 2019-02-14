@@ -16,5 +16,5 @@ mask_size=input("Enter the length of the substrate mask in  micrometers:   ")
 chord=mask_size
 print("distance from center to substrate (um) is:")
 print calculate_chorddist(radius,chord)
-print("height of the boundary mask (um) is:")
+print("height/depth of the boundary mask (um) is:")
 print calculate_maskheight(radius,chord)
