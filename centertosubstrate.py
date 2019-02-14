@@ -1,4 +1,5 @@
 # Geometrical parameters in empirical size determination of solder-substrate pairs in microelectronic packaging industries
+# The depth of mask is a variable length considered 
 #https://www.geeksforgeeks.org/python-math-function-sqrt/
 #https://www.geeksforgeeks.org/mathematical-functions-in-python-set-3-trigonometric-and-angular-functions/
 import math
