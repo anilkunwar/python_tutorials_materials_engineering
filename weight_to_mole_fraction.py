@@ -1,6 +1,6 @@
 #https://en.wikipedia.org/wiki/Mass_fraction_(chemistry)
 #https://www.quora.com/What-is-the-direct-formula-for-converting-mole-fraction-to-mass-percent
-wfrac_cu=input("Enter the weigth fraction of Cu:   ")
+wfrac_cu=input("Enter the weight fraction of Cu:   ")
 wcu=wfrac_cu
 wsn=1.0-wcu
 Molmass_cu=input("Enter the molar mass of Cu:   ")
