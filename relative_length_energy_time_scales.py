@@ -4,7 +4,7 @@
 # energy scales and time scales
 # Outputs the magnitudes of functions at given values of length, energy and time scales
 # the relative magnitudes of ls , es, ts, f_chem, M, kappa, and mu.
-# Reference website for python commands for strings
+# Reference website for python commands on strings variables
 # https://pythonprogramming.net/python-tutorial-print-function-strings/
 # https://en.wikibooks.org/wiki/Python_Programming/Basic_Math
 # https://stackoverflow.com/questions/9685946/math-operations-from-string
