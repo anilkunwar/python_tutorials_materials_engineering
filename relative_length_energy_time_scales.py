@@ -1,6 +1,12 @@
 # For python3.6
 # Outputs the magnitudes of functions at given values of length, energy and time scales
 # the relative magnitudes of ls , es, ts, f_chem, M, kappa, and mu.
+# Reference website for python commands for strings
+# https://pythonprogramming.net/python-tutorial-print-function-strings/
+# https://en.wikibooks.org/wiki/Python_Programming/Basic_Math
+# https://stackoverflow.com/questions/9685946/math-operations-from-string
+# http://interactivepython.org/runestone/static/CS152f17/Strings/OperationsonStrings.html
+# https://www.learnpython.org/en/Basic_String_Operations
 ##########################################################################################
 ls=float(input("Enter the length scale of the simulation (1E+6 for 1 um, 1.0E-3 for km):   "))
 length_scale=ls
