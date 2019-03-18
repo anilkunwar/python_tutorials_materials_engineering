@@ -1,4 +1,7 @@
 # For python3.6
+# For analysing the thermodynamics and kinetics of materials at several length and time scales (multiscales),
+# it is important to numerically measure the relative magnitude of several physical parameters at different length scales,
+# energy scales and time scales
 # Outputs the magnitudes of functions at given values of length, energy and time scales
 # the relative magnitudes of ls , es, ts, f_chem, M, kappa, and mu.
 # Reference website for python commands for strings
