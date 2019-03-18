@@ -13,7 +13,7 @@ delta_width=float(input("Enter the interface width in m:   "))
 delta=delta_width
 gamma_input=float(input("Enter the grain-grain energy gamma (J/m^2):   "))
 gamma=gamma_input
-kappa=0.75*(sigma/delta)*(energy_scale/length_scale)
+kappa=0.75*(sigma*delta)*(energy_scale/length_scale)
 print("kappa (e/l) is")
 print(kappa)
 mu=6.0*(sigma/delta)*energy_scale/length_scale**3
