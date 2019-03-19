@@ -60,7 +60,7 @@ print(fchem_sn)
 print("Calculate all CH mobilities for use in AC mobility calculations")
 def phase_mob(A,D):
     diffusivity_term=D/A
-    scaling=length_scale**2/(energy_scale*time_scale)
+    scaling=length_scale**5/(energy_scale*time_scale)
     return scaling*diffusivity_term
 #diffusivities=input("Enter Dcu, Dimc, Dsn separated by commas:")
 #Dcu,Dimc,Dsn=[float(s) for s in input().split(',')]
