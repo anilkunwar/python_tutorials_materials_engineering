@@ -48,7 +48,7 @@ fchem_scaled=(es/ls**3)*fchem
 print("scaled bulk free energy density is : ")
 print(fchem_scaled, es_unit_value + "/"+ ls_unit_value + "**3" )
 #######################################
-ch_mobility_scaled=(ls**2/(es*ts))*ch_mobility
+ch_mobility_scaled=(ls**5/(es*ts))*ch_mobility
 print("scaled Cahn-Hilliard Mobility is : ")
 print(ch_mobility_scaled, "mol*"+ls_unit_value + "**2" + "/" + "(" + es_unit_value + "*"+ts_unit_value+")" )
 #######################################
