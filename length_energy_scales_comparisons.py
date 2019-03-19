@@ -77,8 +77,8 @@ print(mobility_sn)
 #############################AC Mobility=const*Mi*vm*mu/(kappa*(x1-x2)^2)###########################
 def phase_lij(M1,M2,V1,V2,xeq1,xeq2):
     mobility_term=0.5*mu*(V1+V2)*(M1+M2)/(3*kappa*(xeq1-xeq2)**2)
-    scaling=length_scale**3/(energy_scale*time_scale)
-    return scaling*mobility_term
+    modif_scaling=1.0/length_scale**2 #Scaling to modify from that of M1,M2
+    return modif_scaling*mobility_term
 L_cu_eta=phase_lij(mobility_cu,mobility_imc,Vmcu,Vmimc,xcueq,ximceq)
 L_sn_eta=phase_lij(mobility_sn,mobility_imc,Vmsn,Vmimc,xsneq,ximceq)
 print("AC mob_cu_eta (l^3 mol/e*t) is")
