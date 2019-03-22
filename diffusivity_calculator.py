@@ -40,6 +40,7 @@ material_input=input("Type Al_bk or Ni_bk or Ni_gb (_bk = bulk, and _gb=grain bo
 choice=material_input
 type(choice) 
 #This will help in execution of the last statement "i.e. no material has been defined"
+# https://www.quora.com/How-do-I-get-the-INPUT-statement-for-strings-and-use-if-statement-in-Python
 #print(type(choice)) #<type 'str'>
 #if ...elif...statements
 # https://www.tutorialspoint.com/python/python_if_else.htm
