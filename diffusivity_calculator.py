@@ -1,12 +1,10 @@
 #! /usr/bin/python
 # For python3.6
-# Outputs the magnitudes of functions at given values of length, energy and time scales
-#References
-#https://stackoverflow.com/questions/43971481/covert-error-for-loadtxt-function
-#https://stackoverflow.com/questions/23546349/loading-text-file-containing-both-float-and-string-using-numpy-loadtxt
-#https://cmdlinetips.com/2018/01/how-to-read-a-numerical-data-file-in-python-with-numpy/
-#https://stackoverflow.com/questions/22431921/abbreviate-the-import-of-multiple-files-with-loadtxt-python
-#https://scipython.com/book/chapter-6-numpy/examples/using-numpys-loadtxt-method/
+# Outputs the diffusivities of Bulk Aluminum (Al_bk), Bulk Nickel (Ni_bk) and 
+# Grain boundary region of Ni (Ni_gb)
+# The input required is the temperature in K
+# All units used in the calculation are SI units
+#
 ##########################################################################################
 # import numpy library as np
 import numpy as np
