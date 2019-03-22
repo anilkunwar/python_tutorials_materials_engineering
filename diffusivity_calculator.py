@@ -4,7 +4,10 @@
 # Grain boundary region of Ni (Ni_gb)
 # The input required is the temperature in K
 # All units used in the calculation are SI units
-#
+# References
+# https://www.hanser-elibrary.com/doi/abs/10.3139/146.110428
+# https://aip.scitation.org/doi/abs/10.1063/1.1728808
+# https://aip.scitation.org/doi/10.1063/1.1703047
 ##########################################################################################
 # import numpy library as np
 import numpy as np
