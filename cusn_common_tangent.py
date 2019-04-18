@@ -1,5 +1,9 @@
 # This code finds common tangent for two curves having quadratic fitting
+# This is a modified form of the original codes described in
 #https://stackoverflow.com/questions/48362180/find-common-tangent-line-between-two-cubic-curves
+# The original code deals with cubic fitting y = ax^3 +bx2+cx+d
+# This code deals with quadratic fitting y = ax2+bx+d
+# This code is still incomplete and is an ongoing work
 # Python code to produce common tangent between two curves using least square optimization
 # (a) default tolerance, (b) tighter tolerance, and (c) fsolve function
 import numpy as np
