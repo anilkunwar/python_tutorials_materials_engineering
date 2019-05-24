@@ -1,3 +1,4 @@
+# Tested using python 3.6.5
 # This python program uses pandas and its dataframe to calculate the 
 # temperature difference at the two ends of a phase at the datapoints touched by a x-line (arrow AB)
 import pandas as pd
