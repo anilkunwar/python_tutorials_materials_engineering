@@ -1,5 +1,5 @@
 # This python program uses pandas and its dataframe to calculate the 
-# temperature difference at the two ends of a phase at the datapoints touched by a x-line (arrow)
+# temperature difference at the two ends of a phase at the datapoints touched by a x-line (arrow AB)
 import pandas as pd
 df=pd.read_csv('phi_temperature.csv',usecols=[0,1])
 # choose the regime of diffuse interface between the phases
