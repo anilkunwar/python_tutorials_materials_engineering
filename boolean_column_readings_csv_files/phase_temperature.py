@@ -33,5 +33,9 @@ right_edge=df['temperature'].min()
 left_edge=df['temperature'].max()
 delta_temperature=left_edge-right_edge
 print(delta_temperature)
+# writing the output to the external file
+fname=open('temperature_output.dat','w')
+fname.write('the temperature difference is:' +str(delta_temperature))
+fname.close
 
 
