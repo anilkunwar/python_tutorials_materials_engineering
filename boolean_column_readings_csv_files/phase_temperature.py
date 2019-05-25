@@ -20,6 +20,7 @@
 #https://www.pythonforbeginners.com/files/reading-and-writing-files-in-python
 #https://programminghistorian.org/en/lessons/working-with-text-files
 #https://www.quora.com/How-do-I-write-the-output-of-a-function-to-a-text-file-in-python
+#https://stackoverflow.com/questions/50893146/what-is-the-correct-format-to-write-float-value-to-file-in-python
 ##########################################################################################################
 #Python codes
 import pandas as pd
