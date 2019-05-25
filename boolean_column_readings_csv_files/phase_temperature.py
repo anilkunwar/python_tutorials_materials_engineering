@@ -40,6 +40,9 @@ print(delta_temperature)
 # writing the output to the external file
 fname=open('temperature_output.dat','w')
 fname.write('the temperature difference is:' +str(delta_temperature))
+# To append something additional on an existing file
+#fname=open('temperature_output.dat','a')
+#fname.write('\n' + 'the temperature difference is:' +str(delta_temperature))
 fname.close
 
 
