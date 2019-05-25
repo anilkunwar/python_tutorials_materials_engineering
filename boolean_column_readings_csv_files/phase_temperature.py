@@ -17,6 +17,9 @@
 #https://medium.com/dunder-data/selecting-subsets-of-data-in-pandas-6fcd0170be9c
 #http://pandas.pydata.org/pandas-docs/stable/user_guide/io.html
 #https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
+#https://www.pythonforbeginners.com/files/reading-and-writing-files-in-python
+#https://programminghistorian.org/en/lessons/working-with-text-files
+#https://www.quora.com/How-do-I-write-the-output-of-a-function-to-a-text-file-in-python
 ##########################################################################################################
 #Python codes
 import pandas as pd
