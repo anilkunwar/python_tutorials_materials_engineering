@@ -1,11 +1,11 @@
 # python 3.6.5
-# nested for loop in python 3.6.5
+# nested while loop in python 3.6.5
 ###########References############################
 #https://stackoverflow.com/questions/36571560/directing-print-output-to-a-txt-file-in-python-3/36571602
 #https://www.python-course.eu/python3_loops.php
 #https://www.javatpoint.com/python-do-while-loop
 #https://www.tutorialspoint.com/python/python_for_loop.htm
-#
+# a similar nested for loop can be used as well for range(i,j)
 a=-1.7
 b=-1.1
 i=0
