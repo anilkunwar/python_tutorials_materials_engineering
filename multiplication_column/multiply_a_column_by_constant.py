@@ -13,5 +13,5 @@ print("original data:", df)
 df.loc[:, 'pressure'] *=1.0E+05 #converting pressure from bar to Pascal
 print("modified data:",df)
 #####################exporting the modified cfd variable data##################################
-output_em=df.to_csv('./modified_fluid.csv', index=False)
+output_cfd=df.to_csv('./modified_fluid.csv', index=False)
 
