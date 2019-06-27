@@ -5,7 +5,7 @@
 #https://realpython.com/python-csv/
 #https://chrisalbon.com/python/data_wrangling/pandas_saving_dataframe_as_csv/
 import pandas as pd
-################################reading input em variables##############################################
+################################reading input cfd variables##############################################
 df=pd.read_csv('./fluid.csv', usecols=[0,1,2,3,4])
 print("original data:", df)
 df.loc[:, 'pressure'] *=1.0E+05 #converting pressure from bar to Pascal
