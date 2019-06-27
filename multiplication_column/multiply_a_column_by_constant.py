@@ -8,7 +8,10 @@ import pandas as pd
 ################################reading input cfd variables##############################################
 df=pd.read_csv('./fluid.csv', usecols=[0,1,2,3,4])
 print("original data:", df)
+#####################modifying the data of "pressure" columns##############################
+####################converting pressure from bar to Pascal#################################
 df.loc[:, 'pressure'] *=1.0E+05 #converting pressure from bar to Pascal
 print("modified data:",df)
+#####################exporting the modified cfd variable data##################################
 output_em=df.to_csv('./modified_fluid.csv', index=False)
 
