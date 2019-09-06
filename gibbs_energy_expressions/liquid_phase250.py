@@ -1,5 +1,9 @@
 #Reference: pythonforundergradengineers.com/sympy-expressions-and-equations.html
 #Reference: https://stackoverflow.com/questions/5214578/python-print-string-to-text-file
+# This tutorial converts the parabolic gibbs free energy expressions as follow:
+# Input : f_liq = A1*(x-xeq)^2+B1*x+C1 [J/mol]
+# Output: f_liq = A2*x^2+B2*x+C2 [J/mol]
+# Doing this the equilibrium composition can be preserved for further fitting at different temperatures
 import sympy as sym
 import numpy as np
 from sympy import symbols
