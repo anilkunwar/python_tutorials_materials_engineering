@@ -1,4 +1,5 @@
 #Reference: pythonforundergradengineers.com/sympy-expressions-and-equations.html
+#Reference: https://stackoverflow.com/questions/5214578/python-print-string-to-text-file
 import sympy as sym
 import numpy as np
 from sympy import symbols
