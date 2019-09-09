@@ -1,0 +1,2 @@
+#D0fcc, D0imc,D0bct,Qafcc,Qaimc,Qabct
+1.68E-08, 1.98E-05,1.32E-09,1.44E+05,7.427E+04,4.448E+04
