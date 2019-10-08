@@ -1,3 +1,4 @@
+#This tutorial computes the effect weight of 1 mole of a Sn-xAg-yCu alloy
 #https://en.wikipedia.org/wiki/Mass_fraction_(chemistry)
 #https://www.quora.com/What-is-the-direct-formula-for-converting-mole-fraction-to-mass-percent
 wfrac_ag=float(input("Enter the weight fraction of Ag:   "))
