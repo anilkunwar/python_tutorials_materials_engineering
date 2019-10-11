@@ -9,6 +9,7 @@ import glob
 csv_files=glob.glob("date*.csv")
 #Having a list of filenames, we can convert those into list of dataframes
 #Choose only second rows of each file (3rd rows including the headers)
+#https://stackoverflow.com/questions/39339142/pandas-read-csv-and-keep-only-certain-rows-python
 rows_to_keep=[2]
 #rows_to_keep=[2,3] #multiple rows
 dfs=[pd.read_csv(csv_file, skiprows=lambda x: x not in rows_to_keep) for csv_file in csv_files]
