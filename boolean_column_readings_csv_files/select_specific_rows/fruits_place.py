@@ -2,6 +2,7 @@
 #https://thispointer.com/python-pandas-how-to-convert-lists-to-a-dataframe/
 #marsja.se/pandas-read-csv-tutorial-to-csv/
 #https://pandas.pydata.org/pandas-docs/version/0.20/merging.html
+#http://goodbody.io/combining-csv-files-with-glob/
 import pandas as pd
 import numpy as np
 import glob
