@@ -1,5 +1,5 @@
 #jonathansoma.com/lede/foundations-2017/classes/working-with-many-files/class/
-#thispointer.com
+#https://thispointer.com/python-pandas-how-to-convert-lists-to-a-dataframe/
 #marsja.se/pandas-read-csv-tutorial-to-csv/
 import pandas as pd
 import numpy as np
