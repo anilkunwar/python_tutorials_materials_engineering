@@ -1,1 +1,2 @@
-
+#xlow, theta_x1, xhigh, theta_x2, xn1, xn2 #composition of nanoparticles is x1
+0.5, 38.46,1.0,31.76, 0.7, 0.8
