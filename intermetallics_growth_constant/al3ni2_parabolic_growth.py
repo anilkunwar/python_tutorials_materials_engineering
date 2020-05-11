@@ -5,4 +5,11 @@ import numpy as np
 def arrheniusk(k0,Qa,R,T):
     exponent_term=np.exp(-Qa/(R*T))
     return k0*exponent_term
-# numerical data file of phases
+#############################################
+def xparabolic(x0,k,t,n):
+    pow_term=np.power(t,n)
+    return x0+k*pow_term
+# numerical data 
+k0=3.7E-06 #m^2/s
+Qa= 1.26E+05 #J/mol
+R=
