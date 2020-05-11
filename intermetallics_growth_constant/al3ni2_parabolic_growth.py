@@ -21,4 +21,7 @@ n = 0.5 # diffusion based parabolic growth , no units
 ###############calculation of growth constant#############################
 kcalc = arrheniusk(k0,Qa,R,T)
 print("Growth constant (m^2/s) at the temperature=",kcalc)
+###############calculation of layer thickness at t############################
+xt = xparabolic(x0,kcalc,t,n)
+print("Al3Ni2 IMC layer thickness (m) at t=",xt)
 
